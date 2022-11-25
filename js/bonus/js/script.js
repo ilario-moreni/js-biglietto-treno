@@ -52,3 +52,7 @@ finalPrice = finalPrice.toFixed(2);
 let finalSentece = `Il prezzo del biglietto è di ${finalPrice}€`;
 
 console.log(finalSentece)
+
+/* 6 (bonus) */
+
+document.getElementById('ticketPrice').innerHTML = finalSentece;
